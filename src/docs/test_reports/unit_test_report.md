@@ -1,13 +1,17 @@
 # Unit Tests Report
-Generated on: 2025-06-05 10:33:17
+Generated on: 2025-06-05 10:42:06
 
-## Test Summary
-- Tests run: 13
-- Failures: 0
-- Errors: 0
-- Success rate: 100.0%
+## Summary
+============================================================
+UNIT TEST SUMMARY
+============================================================
+Tests run: 13
+Failures: 0
+Errors: 0
+Success rate: 100.0%
 
-## Unit Test Output
+
+## Detailed Output
 ```
 test_compound_interest_calculation (test_unit.TestFinanceCalculator.test_compound_interest_calculation)
 Test compound interest calculation with valid inputs. ... ok
@@ -37,15 +41,14 @@ test_validate_savings_inputs (test_unit.TestInputValidator.test_validate_savings
 Test savings input validation. ... ok
 
 ----------------------------------------------------------------------
-Ran 13 tests in 0.000s
+Ran 13 tests in 0.001s
 
 OK
 
 ```
 
 ## Unit Test Coverage
-Unit tests focus on testing individual functions and methods in isolation:
-- Calculator mathematical operations
-- Input validation functions
-- Edge case handling
-- Error condition testing
+Unit tests validate individual functions in isolation:
+- Calculator functions (simple interest, compound interest, loan payment)
+- Validator functions (input validation, error handling)
+- Edge cases and boundary conditions

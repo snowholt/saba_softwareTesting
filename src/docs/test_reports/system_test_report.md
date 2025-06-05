@@ -1,13 +1,17 @@
 # System Tests Report
-Generated on: 2025-06-05 10:33:17
+Generated on: 2025-06-05 10:42:06
 
-## Test Summary
-- Tests run: 8
-- Failures: 0
-- Errors: 0
-- Success rate: 100.0%
+## Summary
+============================================================
+SYSTEM TEST SUMMARY
+============================================================
+Tests run: 8
+Failures: 0
+Errors: 0
+Success rate: 100.0%
 
-## System Test Output
+
+## Detailed Output
 ```
 test_complete_financial_planning_workflow (test_system.TestFinanceAppSystem.test_complete_financial_planning_workflow)
 Test complete financial planning workflow combining multiple calculations. ... ok
@@ -34,9 +38,8 @@ OK
 ```
 
 ## System Test Coverage
-System tests verify the complete application behavior:
-- End-to-end user workflows
-- System performance and reliability
-- Complete calculation scenarios
-- User interface consistency
-- Overall system behavior
+System tests validate end-to-end workflows:
+- Complete user scenarios
+- Application workflow testing
+- Performance and reliability testing
+- Error recovery and handling

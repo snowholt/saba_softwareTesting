@@ -1,9 +1,5 @@
-Pytest Verbose Output - Generated on 2025-06-05 10:33:17
-============================================================
-
-STDOUT:
 ============================= test session starts ==============================
-platform linux -- Python 3.12.3, pytest-8.4.0, pluggy-1.6.0 -- /home/snowholt/coding/python/saba_softwareTesting/venv/bin/python
+platform linux -- Python 3.12.3, pytest-8.4.0, pluggy-1.6.0 -- /home/snowholt/coding/python/saba_softwareTesting/venv/bin/python3
 cachedir: .pytest_cache
 metadata: {'Python': '3.12.3', 'Platform': 'Linux-6.11.0-26-generic-x86_64-with-glibc2.39', 'Packages': {'pytest': '8.4.0', 'pluggy': '1.6.0'}, 'Plugins': {'metadata': '3.1.1', 'benchmark': '5.1.0', 'html': '4.1.1', 'cov': '6.1.1'}}
 benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
@@ -43,7 +39,4 @@ tests/test_unit.py::TestInputValidator::test_validate_non_negative_number PASSED
 tests/test_unit.py::TestInputValidator::test_validate_positive_number PASSED [ 96%]
 tests/test_unit.py::TestInputValidator::test_validate_savings_inputs PASSED [100%]
 
-============================== 31 passed in 0.03s ==============================
-
-
-Return Code: 0
+============================== 31 passed in 0.15s ==============================
