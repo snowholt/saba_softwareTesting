@@ -1,7 +1,3 @@
-"""
-Requirements file for Personal Finance Calculator Testing Project
-"""
-
 # Core testing framework (built into Python)
 # unittest (no additional package needed)
 
