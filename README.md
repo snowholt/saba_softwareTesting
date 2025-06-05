@@ -287,6 +287,6 @@ Perfect for demonstrating software testing concepts in an academic setting!
 
 ---
 
-**Author**: Student  
+**Author**: ٔNariman.J  
 **Course**: Software Testing  
 **Date**: June 2025
