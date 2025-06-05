@@ -1,0 +1,67 @@
+# All Tests Report
+
+**Generated:** 2025-06-05 10:16:26
+**Project:** Personal Finance Calculator
+**Test Framework:** pytest
+
+## Test Execution Summary
+
+**Exit Code:** 0
+**Status:** PASSED
+
+## Test Output
+
+```
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-8.4.0, pluggy-1.6.0 -- /home/snowholt/coding/python/saba_softwareTesting/venv/bin/python
+cachedir: .pytest_cache
+metadata: {'Python': '3.12.3', 'Platform': 'Linux-6.11.0-26-generic-x86_64-with-glibc2.39', 'Packages': {'pytest': '8.4.0', 'pluggy': '1.6.0'}, 'Plugins': {'metadata': '3.1.1', 'benchmark': '5.1.0', 'html': '4.1.1', 'cov': '6.1.1'}}
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: /home/snowholt/coding/python/saba_softwareTesting/src
+plugins: metadata-3.1.1, benchmark-5.1.0, html-4.1.1, cov-6.1.1
+collecting ... collected 31 items
+
+tests/test_integration.py::TestFinanceAppIntegration::test_interest_calculation_integration PASSED [  3%]
+tests/test_integration.py::TestFinanceAppIntegration::test_interest_calculation_validation_integration PASSED [  6%]
+tests/test_integration.py::TestFinanceAppIntegration::test_loan_payment_integration PASSED [  9%]
+tests/test_integration.py::TestFinanceAppIntegration::test_loan_payment_validation_integration PASSED [ 12%]
+tests/test_integration.py::TestFinanceAppIntegration::test_savings_goal_integration PASSED [ 16%]
+tests/test_integration.py::TestFinanceAppIntegration::test_savings_goal_validation_integration PASSED [ 19%]
+tests/test_integration.py::TestComponentIntegration::test_calculator_validator_edge_cases PASSED [ 22%]
+tests/test_integration.py::TestComponentIntegration::test_calculator_validator_workflow PASSED [ 25%]
+tests/test_integration.py::TestComponentIntegration::test_data_type_consistency_integration PASSED [ 29%]
+tests/test_integration.py::TestComponentIntegration::test_validation_error_handling_integration PASSED [ 32%]
+tests/test_system.py::TestFinanceAppSystem::test_complete_financial_planning_workflow PASSED [ 35%]
+tests/test_system.py::TestFinanceAppSystem::test_complete_loan_analysis_workflow PASSED [ 38%]
+tests/test_system.py::TestFinanceAppSystem::test_main_application_execution PASSED [ 41%]
+tests/test_system.py::TestFinanceAppSystem::test_system_boundary_conditions PASSED [ 45%]
+tests/test_system.py::TestFinanceAppSystem::test_system_data_integrity PASSED [ 48%]
+tests/test_system.py::TestFinanceAppSystem::test_system_error_handling_and_recovery PASSED [ 51%]
+tests/test_system.py::TestFinanceAppSystem::test_system_performance_basic PASSED [ 54%]
+tests/test_system.py::TestFinanceAppSystem::test_user_experience_consistency PASSED [ 58%]
+tests/test_unit.py::TestFinanceCalculator::test_compound_interest_calculation PASSED [ 61%]
+tests/test_unit.py::TestFinanceCalculator::test_compound_interest_invalid_inputs PASSED [ 64%]
+tests/test_unit.py::TestFinanceCalculator::test_monthly_payment_calculation PASSED [ 67%]
+tests/test_unit.py::TestFinanceCalculator::test_monthly_payment_invalid_inputs PASSED [ 70%]
+tests/test_unit.py::TestFinanceCalculator::test_savings_goal_calculation PASSED [ 74%]
+tests/test_unit.py::TestFinanceCalculator::test_savings_goal_invalid_inputs PASSED [ 77%]
+tests/test_unit.py::TestFinanceCalculator::test_simple_interest_calculation PASSED [ 80%]
+tests/test_unit.py::TestFinanceCalculator::test_simple_interest_negative_values PASSED [ 83%]
+tests/test_unit.py::TestInputValidator::test_validate_integer PASSED     [ 87%]
+tests/test_unit.py::TestInputValidator::test_validate_loan_inputs PASSED [ 90%]
+tests/test_unit.py::TestInputValidator::test_validate_non_negative_number PASSED [ 93%]
+tests/test_unit.py::TestInputValidator::test_validate_positive_number PASSED [ 96%]
+tests/test_unit.py::TestInputValidator::test_validate_savings_inputs PASSED [100%]
+
+============================== 31 passed in 0.06s ==============================
+
+```
+
+## Error Output (if any)
+
+```
+No errors reported
+```
+
+## Test Statistics
+
