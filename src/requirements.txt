@@ -1,0 +1,17 @@
+"""
+Requirements file for Personal Finance Calculator Testing Project
+"""
+
+# Core testing framework (built into Python)
+# unittest (no additional package needed)
+
+# For test coverage analysis (optional)
+coverage>=7.0.0
+
+# For test reporting and documentation
+pytest>=7.0.0
+pytest-html>=3.0.0
+pytest-cov>=4.0.0
+
+# For performance testing (optional)
+pytest-benchmark>=4.0.0
