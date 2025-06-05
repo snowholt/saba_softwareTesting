@@ -112,8 +112,21 @@ def test_complete_financial_planning_workflow(self):
 
 ### Running the Application
 
+**Method 1: Using the runner script (Recommended)**
 ```bash
-# Run the main application
+# Simple runner script that handles paths automatically
+python run_app.py
+```
+
+**Method 2: Direct execution with PYTHONPATH**
+```bash
+# Set Python path and run directly
+PYTHONPATH=. python finance_calculator/main.py
+```
+
+**Method 3: Using module execution**
+```bash
+# Run as module (may require package installation)
 python -m finance_calculator.main
 ```
 
@@ -138,29 +151,41 @@ Interest earned: $83.14
 ## 🧪 Running Tests
 
 ### Run All Tests
-```bash
-# Using unittest (built-in)
-python -m unittest discover tests -v
 
-# Using pytest (if installed)
-pytest tests/ -v
+**Method 1: Using the test runner script (Recommended)**
+```bash
+# Simple test runner that handles paths automatically
+python run_tests.py
+```
+
+**Method 2: Using unittest with PYTHONPATH**
+```bash
+# Set Python path and run with unittest
+PYTHONPATH=. python -m unittest discover tests -v
+```
+
+**Method 3: Using pytest (if installed)**
+```bash
+# Using pytest with proper path
+PYTHONPATH=. pytest tests/ -v
 ```
 
 ### Run Specific Test Types
 
-**Unit Tests Only:**
+**Using the test runner:**
 ```bash
-python -m unittest tests.test_unit -v
+python run_tests.py unit         # Unit tests only
+python run_tests.py integration  # Integration tests only
+python run_tests.py system       # System tests only
 ```
 
-**Integration Tests Only:**
-```bash
-python -m unittest tests.test_integration -v
-```
+**Using unittest directly:**
 
-**System Tests Only:**
+**Using unittest directly:**
 ```bash
-python -m unittest tests.test_system -v
+PYTHONPATH=. python -m unittest tests.test_unit -v
+PYTHONPATH=. python -m unittest tests.test_integration -v
+PYTHONPATH=. python -m unittest tests.test_system -v
 ```
 
 ### Test Coverage Analysis
