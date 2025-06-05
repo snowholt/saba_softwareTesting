@@ -11,3 +11,6 @@ pytest-cov>=4.0.0
 
 # For performance testing (optional)
 pytest-benchmark>=4.0.0
+
+# For PowerPoint presentation generation
+python-pptx>=0.6.21
